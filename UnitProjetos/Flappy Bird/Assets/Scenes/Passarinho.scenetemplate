@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Passarinho
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 7ca7a2ead1f0f21419608a156a670d66, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 5404009871537584083, guid: 02226935a3527db468a4a7bf5db40b25, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 0a7b14a9618d159489c82734d54d330a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 8b23fb02f12b0fd49b2104c6249dc11c, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 14df0858c9a1a17449921b530686b1e8, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: e165a6f259f77fb4384953d34c37a65a, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  badge: {fileID: 0}
+  addToDefaults: 0

@@ -5,11 +5,25 @@ using UnityEngine;
 public class Obstaculo : MonoBehaviour
 {
     [SerializeField]
-    private float velocidade = 0.6f;
+    private float velocidade;
+
+    [SerializeField]
+    private float variacaoPosicaoY;
+
+    private void Awake()
+    {
+        this.transform.Translate(Vector3.up * Random.Range(-variacaoPosicaoY, variacaoPosicaoY));
+    }
+
     // Update is called once per frame
     void Update()
     {
-        this.transform.Translate(Vector3.left * velocidade * Time.deltaTime);
+        this.transform.Translate(Vector3.left * this.velocidade * Time.deltaTime);
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(this.gameObject);
     }
 }
